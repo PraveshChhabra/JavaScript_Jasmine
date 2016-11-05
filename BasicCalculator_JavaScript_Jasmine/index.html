@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="css/custom.css">
+    <script src="js/controller.js"></script>
+    <script src="js/model.js"></script>
+    
+</head>
+<body>
+   
+   <table>
+       <tr>
+           <td><label for="">First Number</label></td>
+           <td><input id="txtfirstnumber" type="text" placeholder="Type First Number Here" ></td>
+       </tr>
+       <tr>
+           <td><label for="">Second Number</label></td>
+           <td><input id="txtsecondnumber" type="text" placeholder="Type Second Number Here" ></td>
+       </tr>
+       <tr>
+           <td>
+               &nbsp;
+           </td>
+       </tr>
+       <tr>
+         <td colspan="2">
+              <table>
+                <tr>
+                  <td><button id="btAdd">Add</button></td>
+                   <td><button id="btMinus">Minus</button></td>
+                   <td><button id="btMultiply">Multiply</button></td>
+                   <td><button id="btDivide">Divide</button></td>
+                   <td><button id="btreset">Reset</button></td>
+                </tr>
+              </table>
+         </td>
+       </tr>
+   </table>
+   <fieldset>
+        <legend>Output</legend>
+        <h2 id="answer"></h2>
+    </fieldset>
+    
+</body>
+</html>
